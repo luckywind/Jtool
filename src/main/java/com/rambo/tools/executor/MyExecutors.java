@@ -12,7 +12,7 @@ public class MyExecutors {
     public static void main(String[] args) {
 //        usingSingle();
         usingCachedThreadPool();
-        
+
 
     }
     public static void usingCachedThreadPool() {

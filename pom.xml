@@ -72,6 +72,37 @@
             <version>5.1.48</version>
             <scope>runtime</scope>
         </dependency>
+<!--        log4j -->
+<!--
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+            <version>1.2</version>
+        </dependency>
+-->
+
+
+<!--        slf4j+ logback-->
+
+        <!-- logback-core基础模块 -->
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-core</artifactId>
+            <version>1.2.3</version>
+        </dependency>
+        <!-- slf4j 接口实现模块 -->
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.2.3</version>
+        </dependency>
+
+
     </dependencies>
     <build>
         <finalName>rambo-tool</finalName>
